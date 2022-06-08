@@ -63,6 +63,10 @@ TARGET_USE_QTI_BT_STACK := true
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := lisa
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_lisa
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_lisa
+
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
