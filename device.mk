@@ -137,7 +137,9 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GrapheneCamera
+    Snap \
+    libMegviiFacepp-0.5.2 \
+    libmegface 
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
